@@ -1,0 +1,36 @@
+{
+  "name": "full-stack-redux-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --require ./testing/helper.js \"./src/**/*.test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/step-off/full-stack-redux-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/step-off/full-stack-redux-tutorial/issues"
+  },
+  "homepage": "https://github.com/step-off/full-stack-redux-tutorial#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.2.0",
+    "chai-immutable": "^1.6.0",
+    "mocha": "^5.2.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "dependencies": {
+    "immutable": "^4.0.0-rc.12"
+  }
+}
