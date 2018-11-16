@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "babel-node index.js",
     "test": "mocha --compilers js:babel-core/register --require ./testing/helper.js \"./src/**/*.test.js\""
   },
   "repository": {
@@ -32,6 +33,7 @@
   },
   "dependencies": {
     "immutable": "^4.0.0-rc.12",
-    "redux": "^4.0.1"
+    "redux": "^4.0.1",
+    "socket.io": "^2.1.1"
   }
 }
