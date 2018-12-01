@@ -1,3 +1,4 @@
 /node_modules
 *.lock
 /.idea
+/client/dist
